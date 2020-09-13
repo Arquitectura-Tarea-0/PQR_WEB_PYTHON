@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sistema PQR</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/service-bell.png" type="image/png">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- CABEZA DE PAGINA -->
+    <header>
+        <!--ENCABEZADO GENERAL-->
+        <div class="navbar-fixed">
+            <nav class="nav-extended red darken-4">
+                <div class="nav-wrapper red darken-2 navbar-fixed">
+                    <a href="#!" class="brand-logo"><i class="material-icons">contact_mail</i>PQRs</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="mispqr.html">Mis PQR</a></li>
+                        <li><a href="newpqr.html">Crear PQR</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!--BARRA LATERAL: SIDENAV-->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="mispqr.html">Mis PQR</a></li>
+            <li><a href="newpqr.html">Crear PQR</a></li>
+        </ul>
+
+    </header>
+
+    <main>
+
+        <!--FORMULARIOS-->
+        <div id="formulariopqr" class="container white z-depth-5">
+
+            </ul>
+            <div id="" class="col s12">
+                <form class="col s12" parent="_blank">
+                    <div class="form-container">
+                        <div class="row">
+                            <blockquote>
+                                <h4>Información de la solicitud</h4>
+                            </blockquote>
+                            <h5 class="text-bold">- Asunto</h5>
+                            <p class="flow-text">asunto</p>
+                            <h5 class="text-bold">- Tipo</h5>
+                            <p class="flow-text">tipo de solicitud</p>
+                            <h5 class="text-bold">- Estado</h5>
+                            <p class="flow-text">estado del pqr</p>
+                            <h5 class="text-bold">- Descripcion</h5>
+                            <p class="flow-text">descripcion de la solicitud</p>
+                        </div>
+                        <div class="row">
+                            <blockquote>
+                                <h4>Anotaciones
+                                    <div class="right">
+                                        <a class="btn-floating btn-large waves-effect waves-light red modal-trigger"
+                                            href="#modal1"><i class="material-icons">add</i></a>
+                                    </div>
+                                </h4>
+                            </blockquote>
+                            <div id="modal1" class="modal">
+                                <div class="modal-content">
+                                    <h4>Nueva anotacion</h4>
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                            <label for="textarea1">Redacte su solicitud</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agregar</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+                                </div>
+                            </div>
+                            <p class="flow-text">
+                                listado de anotaciones
+                            </p>
+                        </div>
+                        <div class="row">
+                            <blockquote>
+                                <h6>
+                                    Tiene problemas con su solicitud? <a href="">Reabrir solicitud</a> 
+                                </h6>
+                            </blockquote>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer id="footer" class="page-footer red darken-2">
+        <div class="footer-copyright red darken-4">
+            <div class="container">
+                2019 © All Rights Reserved. Desarrollado por: Ing. Sistemas<a class="grey-text text-lighten-4 right"
+                    href="#!">Social media</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="/js/function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
