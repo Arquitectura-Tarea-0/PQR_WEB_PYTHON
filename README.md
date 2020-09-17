@@ -2,5 +2,5 @@
 #
 #
 # subimos lo que alcanzamos
-# no sabiamos nada de python y django toco durante la semana  alcanzamos hacer
-# el registro de usuario de pqr, listar la pqr y el panel de administrador
+# no sabiamos nada de python y django toco durante la semana aprender alcanzamos hacer
+# el registro de usuario, pqr, listar la pqr y el panel de administrador
