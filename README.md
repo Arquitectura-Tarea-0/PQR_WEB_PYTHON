@@ -1,1 +1,0 @@
-# PQR_WEB_PYTHON
